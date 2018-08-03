@@ -1,4 +1,5 @@
-FROM ubuntu:xenial
+#FROM ubuntu:xenial
+FROM ubuntu:trusty
 
 MAINTAINER Enrique Gil <mahoul@gmail.com>
 
@@ -19,6 +20,7 @@ apt-get install -y seamonkey-mozilla-build \
  libfreetype6 \
  libgtk-3-0 \
  libfontconfig1 \
+ libx11-xcb1 \
  libxrender1 \
  libxext6 \
  libxdamage1 \
